@@ -1,0 +1,13 @@
+ALL-DNA-MERGED
+anvi-contig.db
+contigs.*
+done
+final.contigs.fa*
+log
+opts.txt
+rast_annotation.txt
+svr_assign_to_dna_using_figfams.txt
+SUMMARY
+*temp*
+uproc-out
+out
