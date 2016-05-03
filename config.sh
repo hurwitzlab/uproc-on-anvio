@@ -15,6 +15,8 @@ export UPROC_PFAM_OUT="$UPROC_OUT_DIR/uproc_pfam"
 export UPROC_ID2FEATURE="$DAT/feature-out"
 export UPROC_FEATSUM="$DAT/feature-sums"
 
+export KEGGOUT=$UPROC_KEGG_OUT
+
 function init_dir {
     for dir in $*; do
         if [ -d "$dir" ]; then

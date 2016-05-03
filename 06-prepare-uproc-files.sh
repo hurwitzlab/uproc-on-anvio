@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source config.sh
+source common.sh
+
 for thing in $(cat up-list); do cp $KEGGOUT/"$thing".uproc $KEGGOUT/up."$thing".uproc; done
 
 for thing in $(cat down-list); do cp $KEGGOUT/"$thing".uproc $KEGGOUT/down."$thing".uproc; done
