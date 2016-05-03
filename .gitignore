@@ -13,3 +13,7 @@ uproc-out
 out
 *.fa
 *.uproc
+contigs-longer-than-2093.fa-prodigal.gbk
+down-list
+up-list
+uproc_dbs

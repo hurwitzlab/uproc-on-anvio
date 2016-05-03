@@ -30,7 +30,7 @@ if [ -e $UPROC_DB_FILE ]; then
     while read UPROC_DB_NAME UPROC_DB; do
         for FILE in $(cat down-list up-list); do
         
-        INPUT="./Automatic-Binning/bin_by_bin/"$FILE"/"$FILE"-contigs.fa-prodigal.fa"
+        INPUT="./SUMMARY/bin_by_bin/"$FILE"/"$FILE"-contigs.fa-prodigal.fa"
 
         UPROC_OUT="$UPROC_OUT_DIR/$UPROC_DB_NAME"
         OUTPUT_FILE="$UPROC_OUT/"$FILE".uproc"
