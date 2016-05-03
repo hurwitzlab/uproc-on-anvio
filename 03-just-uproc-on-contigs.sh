@@ -9,8 +9,8 @@ set -x
 if [ -e $UPROC_DB_FILE ]; then
     while read UPROC_DB_NAME UPROC_DB; do
 
-        INPUT="longer_contigs_than_1696.fa-prodigal.fa"
-       
+        INPUT="contigs-longer-than-2093.fa"
+
         UPROC_OUT="$UPROC_OUT_DIR/$UPROC_DB_NAME"
         OUTPUT_FILE="$UPROC_OUT/$(basename $INPUT ".fa-prodigal.fa").uproc"
 
